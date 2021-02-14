@@ -1,22 +1,26 @@
-# Yandex.Praktikum-Project-8
-https://github.com/Verakhab/Yandex.Praktikum-Project-8
+# Учебный сервер упал, посмотреть проект в действии не удастся, можно посмотреть только код(
 
-Version: v.1.0.0
+## Yandex.Praktikum-Project-8
+
+Github: https://github.com/Verakhab/Yandex.Praktikum-Project-8
 
 Project work #8
-Mesto
 
+Version: v.3.0.0
 
+### Описание Проекта
 
+Сервис Mesto: интерактивная страница, куда можно добавлять фотографии, удалять их и ставить лайки.
 
-## Описание Проекта
-__Используемые технологии:__ HTML, CSS, JavaScript, BEM, DOM, BOM, event,
-validation, ES6+, debugger, IIFE, Function Expression, замыкание,
-ООП, this, AJAX, API, flexbox, flow,CSS Pseudo-classes, CSS Pseudo-elements,
-form, font, iframe, animation, transformation, @keyframes, Figma, PixelPerfect,
-адаптивная, кроссбраузерная вёрстка, @media.
+__В этом обновлении:__
 
-## Локальный запуск
+Подключил проект Mesto к серверу.
+
+Создал класс API для взаимодействия с сервером. Настроил GET и PATCH запросы на три роута - загрузка информации о пользователе, загрузка карточек находящихся в БД при загрузке страницы, редактирование профиля пользователя.
+ 
+__Используемые технологии:__ HTML, CSS, JavaScript, API, AJAX, Promise, BEM, адаптивная, кроссбраузерная вёрстка.
+
+#### Локальный запуск
   ```
      Склонировать репозиторий
      Запустить с помощью браузера файл index.html
